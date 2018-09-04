@@ -1,5 +1,5 @@
 # swap_pgm
-Swapping of two programs
+Swapping of two programs using Arithmatic operators
 
 
 #include <stdio.h>
@@ -13,9 +13,9 @@ int main()
  
    printf("Before Swapping\nx = %d\ny = %d\n",x,y);
  
-   temp = x;
-   x    = y;
-   y    = temp;
+   x    = x+y;
+   x    = x-y;
+   y    = x-y;
  
    printf("After Swapping\nx = %d\ny = %d\n",x,y);
  
